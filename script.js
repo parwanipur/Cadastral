@@ -1,4 +1,4 @@
-const csvUrl = "https://raw.githubusercontent.com/kolvimun/Cadestrelandusequery/refs/heads/main/Baudhimai.csv";
+const csvUrl = "https://raw.githubusercontent.com/parwanipur/Cadastral/refs/heads/main/Parwanipur.csv";
 let csvData = [];
 
 // Fetch CSV data on page load
@@ -99,4 +99,5 @@ function displayResults(results) {
     table.appendChild(tbody);
     resultsDiv.appendChild(table);
 }
+
 
